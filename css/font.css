@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Montreal';
+  src: url('../fonts/PPNeueMontrealMono-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Nothing';
+  src: url('../fonts/nothing-font-5x7.otf') format('opentype');
+}
