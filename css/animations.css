@@ -1,0 +1,73 @@
+/* HOMEPAGE CAROUSEL TITLE ANIMATION */
+
+@keyframes hovering {
+from {
+  transform: translateY(25px);
+  opacity: 0;
+}
+to {
+  transform: translateY(0px);
+  opacity: 1;
+}
+}
+
+/* UNUSED INITAL LOADING ANIMATION */
+
+@keyframes loader {
+from {
+  transform: translateY(0px);
+}
+to {
+  transform: translateY(-100vh);
+  display: none;
+}
+}
+
+
+/* LOADING TEXT IN LOADING PAGE */
+@keyframes fillText {
+0% {
+  background-position: 100% 0;
+}
+100% {
+  background-position: 0 0;
+}
+}
+
+
+/* LOADING-IN SCREEN ANIMATION */
+
+@keyframes loadIn {
+  10% {
+    transform: scale(1, 0.002);
+    opacity: 1;
+}
+  35% {
+    transform: scale(1, 0.002);
+    opacity: 0;
+}
+  50% {
+    transform: scale(1, 0.002);
+    opacity: 0;
+}
+  85% {
+    transform: scale(1, 0.002);
+    opacity: 0;
+}
+  100% {
+    transform: scale(0, 0);
+    display: none;
+}
+}
+
+
+/* BLINKING ANIMATION ON LOADING SCREEN */
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
